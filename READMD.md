@@ -13,7 +13,7 @@ A simple node game to simulate a classic slot machine. Each symbol is a letter o
 
 1. [Usage](#usage)
 1. [Installation Code](#installation)
-1. [Screenshot](#screenshot)
+1. [Screenshots](#screenshot)
 1. [License](#license)
 1. [Links](#links)
 1. [Questions](#support)
@@ -44,11 +44,15 @@ Follow the prompts and _Good Luck!_
 
 <a id="screenshot"></a>
 
-## Screenshot
+## Screenshots
 
-![screenshot](./assets/images/nodeSlots%20-%20logo.png)
+![Logo Screenshot](./assets/images/nodeSlots%20-%20logo.png)
 
 ![gif](./assets/images/nodeSlots.gif)
+
+#### HTML Landing Page
+
+![HTML Screenshot](./assets/images/nodeSlots%20-%20landing.png)
 
 ---
 
@@ -67,6 +71,8 @@ Follow the prompts and _Good Luck!_
 <div align="center">
 
 ### [Repo Link](https://github.com/8BitGinger/nodeslots)
+
+### [Landing Page](https://8bitginger.github.io/nodeslots/)
 
 </div>
 

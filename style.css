@@ -1,0 +1,96 @@
+.header {
+  width: 100%;
+  height: 75px;
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+
+  color: white;
+}
+
+.header {
+  margin-left: 25px;
+}
+
+body {
+  margin-top: 85px;
+  background-color: black;
+}
+
+.green {
+  color: green;
+}
+
+.blue {
+  color: dodgerblue;
+}
+
+.purple {
+  color: purple;
+}
+
+.darkYellow {
+  color: gold;
+}
+
+.description {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  margin: 5px;
+  width: 90vw;
+}
+
+.description p {
+  width: 50%;
+  font-size: 25px;
+  margin-right: 15px;
+  margin-top: 45px;
+}
+
+.logo {
+  margin: 30px;
+  width: 50%;
+  max-height: 500px;
+}
+
+.description a {
+  text-decoration: none;
+  color: green;
+}
+
+.title {
+  color: gold;
+  text-decoration: underline;
+  font-size: 28px;
+}
+
+.description a:hover {
+  color: rgb(11, 235, 11);
+}
+
+@media screen and (max-width: 600px) {
+  .header h1 {
+    font-size: 22px;
+  }
+
+  .description {
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+  }
+
+  .logo {
+    margin: auto;
+    margin-bottom: 10px;
+  }
+
+  .description p {
+    width: 100%;
+    margin: 5px;
+  }
+}
