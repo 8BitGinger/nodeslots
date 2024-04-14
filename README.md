@@ -3,6 +3,8 @@
 
 # Ryan's Node Slots
 
+![Logo Screenshot](./assets/images/nodeSlotsProject.jpg)
+
 ## Description
 
 A simple node game to simulate a classic slot machine. Each symbol is a letter of the name RYAN in honor of it's creator!
@@ -46,13 +48,13 @@ Follow the prompts and _Good Luck!_
 
 ## Screenshots
 
-![Logo Screenshot](./assets/images/nodeSlots%20-%20logo.png)
-
-![gif](./assets/images/nodeSlots.gif)
-
 #### HTML Landing Page
 
 ![HTML Screenshot](./assets/images/nodeSlots%20-%20landing.png)
+
+#### Gif Walkthrough
+
+![gif](./assets/images/nodeSlots.gif)
 
 ---
 
@@ -61,8 +63,6 @@ Follow the prompts and _Good Luck!_
 ## License
 
 [MIT](https://opensource.org/licenses/MIT)
-
----
 
 <a id="links"></a>
 

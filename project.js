@@ -12,17 +12,17 @@ const ROWS = 3;
 const COLS = 3;
 
 const SYMBOLS_COUNT = {
-  R: 2,
-  Y: 4,
-  A: 6,
-  N: 8,
+  N: 2,
+  O: 4,
+  D: 6,
+  E: 8,
 };
 
 const SYMBOL_VALUES = {
-  R: 5,
-  Y: 4,
-  A: 3,
-  N: 2,
+  N: 5,
+  O: 4,
+  D: 3,
+  E: 2,
 };
 
 const deposit = () => {
@@ -138,20 +138,20 @@ const getWinnings = (rows, bet, lines) => {
 const game = () => {
   console.log(`
            _____$_____
-        ^^^|RyanSlots|^^^
+        ^^^|NodeSlots|^^^
      ^(-------------------)^
     |*| ==_== ==_== ==_== |*|
-    |*| | R | | Y | | A | |*|  
+    |*| | N | | O | | D | |*|  
     |*| ==_== ==_== ==_== |*|  @)
-    |*| | A | | N | | R | |*|  ||
+    |*| | D | | E | | N |*|  ||
     |*| ==_== ==_== ==_== |*|  ||
-    |*| | Y | | R | | N | |*|===|
+    |*| | O | | E | | 0 | |*|===|
     |*| ==_== ==_== ==_== |*|
     |*|  _______________  |*|
    _|*| (_______________) |*|_
   (___________________________)  
 
-  Welcome to Ryan's Node.js Slot Machine!
+  Welcome to Node Slots!
   `);
 
   let balance = deposit();
